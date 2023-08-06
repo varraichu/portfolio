@@ -1,0 +1,740 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0;
+    background-color: rgb(123, 151, 144);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 700;
+    margin: 0 0;
+}
+
+h2{
+    font-weight: 500;
+    margin: 0 0;
+}
+
+h3{
+    font-weight: 400;
+    margin: 0 0;
+}
+
+p{
+    font-weight: 300;
+    margin: 0 0;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    margin: 0px 0px;
+}
+
+
+/* navbar start */
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    z-index: 1000;
+    background-color: rgba(83, 105, 97, 0.884)
+}
+
+#works{
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    justify-content: center;
+}
+
+.types{
+    color: white;
+    padding-top: 4px;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+
+.types:hover{
+    opacity: 1;
+}
+/* navbar end */
+
+/* about me start */
+
+#name{
+    margin: 0 0;
+}
+
+#me-cont{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 158px;
+}
+
+#hado{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: 50px;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+#name{
+    font-size: 100px;
+}
+
+#description{
+    font-size: 20px;
+}
+
+#about-me{
+    height: 450px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(171, 190, 186, 0.432);
+    
+}
+
+/* about me end */
+
+/* education start */
+
+#edu-container{
+    padding: 10px 158px;
+
+}
+
+#education{
+    height: 395px;
+    width: 100%;
+    background-color: white;
+}
+
+#cards{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 15px;
+    /* background-color: rgba(103, 121, 116, 0.174); */
+    width: 950px;
+}
+
+.cardi{
+    display: flex;
+    flex-direction: row;
+    column-gap: 65px;
+    /* background-color: red; */
+}
+
+#major{
+    font-size: 35px;
+}
+
+#maj{
+    /* background-color: blue; */
+    /* padding: 0px 10px; */
+    width: 500px;
+}
+
+#ID{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.INT{
+    background-color: rgba(163, 186, 176, 0.585);
+    border-radius: 50px;
+    width: 410px;
+    padding: 0px 10px;
+}
+
+#lgs{
+    width: 229px;
+}
+
+#edu{
+    font-size: 20px;
+    opacity: 0.6;
+}
+
+/* #date2{
+    position: relative;
+    left: 277px;
+} */
+
+#datum1{
+    background-color: rgba(163, 186, 176, 0.585);
+    height: 20px;
+    width: 102px;
+    border-radius: 80px;
+    padding: 0px 10px;
+    position:relative;
+    left: 250px;
+}
+
+#datum2{
+    background-color: rgba(163, 186, 176, 0.585);
+    height: 20px;
+    width: 80px;
+    border-radius: 80px;
+    padding: 0px 10px;
+    position: relative;
+    left: 520px;
+}
+
+/* education end */
+
+
+/* featured works starts */
+
+
+#vase{
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+}
+
+#globy{
+    height: 240px;
+    width: 240px;
+    border-radius: 55px;
+}
+#perfume{
+    height: 240px;
+    width: 240px;
+    border-radius: 55px;
+}
+
+
+#poster{
+    width: 430px;
+    height: 240px;
+    border-radius: 50px;
+}
+
+#hajjbook{
+    width: 430px;
+    height: 240px;
+    border-radius: 50px;
+}
+
+#teapot{
+    width: 430px;
+    height: 240px;
+    border-radius: 50px;
+}
+
+#feature{
+    font-size: 20px;
+    opacity: 0.6;
+    color: black;
+}
+
+#line{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    opacity: 0.3;
+}
+
+
+#left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#innerleft{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+
+
+#right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#hustle{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-top: 15px;
+}
+
+#worker{
+    height: 840px;
+    /* width: 100%; */
+    position: absolute;
+    padding: 10px 156.5px;
+    left: 0;
+    /* background-color: rgba(153, 171, 163, 0.87); */
+    background-color: white;
+}
+
+#working{
+    height: 860px;
+    /* width: 100%; */
+}
+
+
+#vase-over{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(163, 186, 176, 0.585);
+    position: absolute;
+    /* z-index: 1000; */
+    top: 49.5px;
+    border-radius: 50px;
+    /* opacity: 0.6; */
+}
+
+#vase2{
+    height: 500px;
+    width: 500px;
+    border-radius: 100px 100px 100px 1000px;
+    position: absolute;
+    top: 49.5px;
+    left: 157px;
+    /* opacity: 0.5; */
+}
+
+#vase-over-text{
+    position: absolute;
+    padding: 40px 10px;
+    top: 380px;
+    left: 135px;
+}
+
+#over-text-h1{
+    color: black;
+    position: relative;
+    left: 25px;
+    font-size: 50px;
+    opacity: 0.7;
+}
+#over-text-h2{
+    position: inherit;
+    left: 40px;
+    font-size: 20px;
+}
+
+/* #globy2{
+    height: 240px;
+    width: 240px;
+    border-radius: 100px 100px 100px 500px;
+    position: absolute;
+    top: 572.7px;
+}
+
+#globy-over{
+    height: 240px;
+    width: 240px;
+    background-color: olive;
+    border-radius: 55px;
+    position: relative;
+    top: -244px;
+    opacity: 0.6;
+} */
+
+#globy-over{
+    height: 75px;
+    width: 240px;
+    background-color: rgba(163, 186, 176, 0.585);
+    border-radius: 0 0 55px 55px;
+    position: relative;
+    top: -79px;
+    /* opacity: 0.6; */
+}
+
+#globe-over-text{
+    position: absolute;
+    padding: 10px 30px;
+    top: 726px;
+}
+
+#globy-text-h1{
+    color: black;
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+#globy-text-h2{
+    position: inherit;
+    left: 25px;
+    font-size: 13px;
+}
+
+
+/* #perfume2{
+    height: 240px;
+    width: 240px;
+    border-radius: 100px 100px 100px 500px;
+    position: absolute;
+    top: 572.7px;
+}
+
+#sol-over{
+    height: 240px;
+    width: 240px;
+    background-color: olive;
+    border-radius: 55px;
+    position: relative;
+    top: -244px;
+    opacity: 0.6;
+} */
+
+#sol-over{
+    height: 75px;
+    width: 240px;
+    background-color: rgba(163, 186, 176, 0.585);
+    border-radius: 0 0 55px 55px;
+    position: relative;
+    top: -79px;
+    /* opacity: 0.6; */
+}
+
+#sol-over-text{
+    position: absolute;
+    padding: 10px 30px;
+    top: 726px;
+}
+
+#sol-text-h1{
+    color: black;
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+#sol-text-h2{
+    position: inherit;
+    left: 25px;
+    font-size: 13px;
+}
+
+#sol-text2-h2{
+    position: inherit;
+    left: 120px;
+    font-size: 13px;
+}
+
+
+#posty{
+    height: 240px;
+}
+
+/* #poster2{
+    width: 430px;
+    height: 240px;
+    border-radius: 130px 130px 130px 500px;
+    position: absolute;
+    top: 49.6px;
+}
+
+#poster-over{
+    width: 430px;
+    height: 240px;
+    border-radius: 50px;
+    background-color: olive;
+    position: relative;
+    top: -244px;
+    opacity: 0.6;
+} */
+
+#poster-over{
+    width: 430px;
+    height: 70px;
+    border-radius: 0 0 50px 50px;
+    background-color: rgba(163, 186, 176, 0.585);
+    position: relative;
+    top: -74px;
+    /* opacity: 0.6; */
+}
+
+#post-over-text{
+    position: absolute;
+    padding: 10px 30px;
+    top: 206px;
+    left: 680px;
+}
+
+#post-text-h1{
+    color: black;
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+#post-text-h2{
+    position: inherit;
+    left: 25px;
+    font-size: 13px;
+}
+
+#post-text2-h2{
+    position: inherit;
+    left: 200px;
+    font-size: 13px;
+}
+
+
+
+
+#hajj{
+    height: 240px;
+}
+
+/* #hajjbook2{
+    width: 430px;
+    height: 240px;
+    border-radius: 130px 130px 130px 500px;
+    position: absolute;
+    top: 309.5px;
+}
+
+#hajj-over{
+    width: 430px;
+    height: 240px;
+    border-radius: 50px;
+    background-color: olive;
+    position: relative;
+    top: -244px;
+    opacity: 0.6;
+} */
+
+#hajj-over{
+    width: 430px;
+    height: 70px;
+    border-radius:  0 0 50px 50px;
+    background-color: rgba(163, 186, 176, 0.585);
+    position: relative;
+    top: -74px;
+    /* opacity: 0.6; */
+}
+
+#hajj-over-text{
+    position: absolute;
+    padding: 10px 30px;
+    top: 467px;
+    left: 680px;
+}
+
+#hajj-text-h1{
+    color: black;
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+#hajj-text-h2{
+    position: inherit;
+    left: 25px;
+    font-size: 13px;
+}
+
+#hajj-text2-h2{
+    position: inherit;
+    left: 200px;
+    font-size: 13px;
+}
+
+
+#tea{
+    height: 240px;
+}
+
+/* #teapot2{
+    width: 430px;
+    height: 240px;
+    border-radius: 130px 130px 130px 500px;
+    position: absolute;
+    top: 570px;
+    opacity: 0.4;
+} */
+
+/* #tea-over{
+    width: 430px;
+    height: 240px;
+    border-radius: 50px;
+    background-color: olive;
+    position: relative;
+    top: -243.6px;
+    opacity: 0.6;
+} */
+
+#tea-over{
+    width: 430px;
+    height: 70px;
+    border-radius: 0 0 50px 50px;
+    background-color: rgba(163, 186, 176, 0.585);
+    position: relative;
+    top: -74px;
+    /* opacity: 0.6; */
+}
+
+#tea-over-text{
+    position: absolute;
+    padding: 10px 30px;
+    top: 727px;
+    left: 680px;
+}
+
+#tea-text-h1{
+    color: black;
+    position: relative;
+    left: -10px;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+#tea-text-h2{
+    position: inherit;
+    left: 25px;
+    font-size: 13px;
+} 
+
+/* featured works ends */
+
+/* more start */
+
+#more{
+    height: 520px;
+    width: 100%;
+    /* background-color: rgba(163, 186, 176, 0.585); */
+    background-color: white;
+}
+
+#more-container{
+    padding: 10px 158px;
+    
+}
+
+#further{
+    font-size: 20px;
+    opacity: 0.6;
+    color: black;
+    padding-top: 5px;
+}
+
+#container{
+    display: flex;
+    column-gap: 100px;
+    margin-top: 15px;
+    width: 950px;
+}
+
+#skills{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 440px;
+    width: 300px;
+    padding: 10px 50px;
+    /* background-color: rgba(163, 186, 176, 0.585); */
+    background-color: rgba(163, 186, 176, 0.585);
+    border-radius: 70px;
+}
+
+#experience{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 440px;
+    width: 350px;
+    padding: 10px 50px;
+    /* background-color: rgba(163, 186, 176, 0.585); */
+    background-color: rgba(163, 186, 176, 0.585);
+    border-radius: 70px;
+}
+
+#head{
+    font-size: 40px;
+    text-align: center;
+    /* color: black; */
+}
+
+
+
+#innerskills{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /* opacity: 0.7; */
+}
+
+#innerexp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /* opacity: 0.7; */
+}
+
+#title{
+    font-size: 30px;
+} 
+
+/* more end */
+
+/* contact start */
+
+#cont-container{
+    padding: 10px 158px;
+}
+
+#contact{
+    background-color: white;
+}
+
+#cunt{
+    font-size: 20px;
+    opacity: 0.6;
+    color: black;
+    padding-top: 6px;
+}
+
+#icons{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#phone{
+    height: 30px;
+    width: 30px;
+}
+
+#email{
+    height: 30px;
+    width: 30px;
+}
+
+#linkedin{
+    height: 30px;
+    width: 30px;
+}
+
+/* contact end */
